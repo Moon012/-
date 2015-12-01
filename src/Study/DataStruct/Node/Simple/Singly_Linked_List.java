@@ -1,6 +1,6 @@
-package Study.DataStruct.Node;
+package Study.DataStruct.Node.Simple;
 
-public class Singly_linked_list {
+public class Singly_Linked_List {
 	
 	LinkNode HeaderNode;
 	LinkNode nextNode;
@@ -86,7 +86,7 @@ public class Singly_linked_list {
 			
 			tempNode.setLinkNode(current.getNodeNext());
 			
-		}else if(tempNode == null && current != null){//   첫노드가 삭제 될때 ? 과연
+		}else if(tempNode == null && current != null){
 			
 			HeaderNode = current.getNodeNext();
 		}

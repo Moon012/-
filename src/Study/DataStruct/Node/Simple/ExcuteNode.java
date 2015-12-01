@@ -1,11 +1,11 @@
-package Study.DataStruct.Node;
+package Study.DataStruct.Node.Simple;
 
 public class ExcuteNode {
 
 	public static void main(String[] args) {
 		
 		
-		Singly_linked_list sll = new Singly_linked_list();
+		Singly_Linked_List sll = new Singly_Linked_List();
 		sll.addNode(1);
 		sll.addNode(2);
 		sll.addNode(13);

@@ -1,4 +1,4 @@
-package Study.DataStruct.Node;
+package Study.DataStruct.Node.Simple;
 
 public class LinkNode {
 	
