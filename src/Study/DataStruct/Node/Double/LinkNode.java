@@ -1,5 +1,15 @@
 package Study.DataStruct.Node.Double;
 
+/**
+ * 이중 연결 리스트
+ * @FileName    : LinkNode.java
+ * @Project     : myStudy
+ * @Date        : 2015. 12. 1. 
+ * @작성자       : Moon
+ * @변경이력     :
+ * @프로그램 설명 : 이중 연결 리스트를 위한 노드
+ */
+
 public class LinkNode {
 	
 	private int data;

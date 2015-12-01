@@ -1,11 +1,24 @@
 package Study.DataStruct.Node.Simple;
 
+
+/**
+ * @FileName    : Singly_Linked_List.java
+ * @Project     : myStudy
+ * @Date        : 2015. 12. 1. 
+ * @작성자       : Moon
+ * @변경이력     : 
+ * @프로그램 설명 : 단순 연결 리스트 add(순차삽입 - 정렬 x), find, insert(중간삽입 - 값 비교 후 삽입),
+ * 			  	  delete, display 메소드 구현
+ */
+
 public class Singly_Linked_List {
 	
 	LinkNode HeaderNode;
 	LinkNode nextNode;
 	
+	
 	// 노드 추가(순차 삽입) - 중간 삽입은 따로 있음
+	
 	public void addNode(int key){
 		
 		if(HeaderNode == null)
@@ -26,7 +39,8 @@ public class Singly_Linked_List {
 	
 	
 	// 노드 찾기
-	public LinkNode fideNode(int key){
+	
+	public LinkNode findNode(int key){
 		
 		LinkNode current = HeaderNode;
 		

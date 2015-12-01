@@ -1,5 +1,16 @@
 package Study.DataStruct.Node.Double_Ended;
 
+/**
+ * -- 이중 단말 연결 리스트
+ * @FileName    : Doubly_Linked_List.java
+ * @Project     : myStudy
+ * @Date        : 2015. 12. 1. 
+ * @작성자       : Moon
+ * @변경이력     :
+ * @프로그램 설명 : 이중 단말 연결 리스트 headerNode 노드가 다음 노드와 마지막 노드의 주소 값을 가지고 있음
+ * 				  insert(정렬된 삽입), delete, find, display 메소드 구현 
+ */
+
 import Study.DataStruct.Node.Simple.LinkNode;
 
 public class Double_Ended {

@@ -1,8 +1,14 @@
 package Study.DataStruct.Node.Double;
 
-import java.awt.geom.CubicCurve2D;
-
-import javax.swing.text.DefaultEditorKit.CutAction;
+/**
+ *  -- 이중 연결 리스트 
+ * @FileName    : Doubly_Linked_List.java
+ * @Project     : myStudy
+ * @Date        : 2015. 12. 1. 
+ * @작성자       : Moon
+ * @변경이력     :
+ * @프로그램 설명 :  insert(정렬된 삽입), delete, fide, display 메소드 구현
+ */
 
 public class Doubly_Linked_List {
 	
@@ -74,14 +80,11 @@ public class Doubly_Linked_List {
 			headerNode.setPrevious(previous);
 		}
 		
-		
-		
 		else if(current == headerNode){
 			
 			headerNode.setNextNode(current.getNextNode());
 			
 		}
-		
 		
 		else{
 			previous.setNextNode(current.getNextNode());

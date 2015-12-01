@@ -1,5 +1,15 @@
 package Study.DataStruct.Node.Double_Ended;
 
+/**
+ * -- 이중 단말 연결 리스트
+ * @FileName    : Excute.java
+ * @Project     : myStudy
+ * @Date        : 2015. 12. 1. 
+ * @작성자       : Moon
+ * @변경이력     :
+ * @프로그램 설명 : 이중 단말 연결리스트 테스트
+ */
+
 public class Excute {
 
 	public static void main(String[] args) {
