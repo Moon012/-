@@ -8,7 +8,8 @@ package Study.DataStruct.Node.Simple;
  * @작성자       : Moon
  * @변경이력     : 
  * @프로그램 설명 : 단순 연결 리스트 add(순차삽입 - 정렬 x), find, insert(중간삽입 - 값 비교 후 삽입),
- * 			  	  delete, display 메소드 구현
+ * 			  	 
+ *  delete, display 메소드 구현
  */
 
 public class Singly_Linked_List {
