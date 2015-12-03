@@ -19,7 +19,7 @@ package Study.Design_Pattern.Template_Pattern;
  * 								 그 메소드가 어느 타이밍에서 호출되는지 이해해야 한다.
  * 								 상위 클래스의 소스 프로그램 없으면 하위 클래스의 구현이 어려울 수 있다.
  * 
- * -- LPS(The Liskov Substitution Principle) : 상위 클래스형 변수에 하위 클래스의 인스턴스를 대입해도 
+ * -- LSP(The Liskov Substitution Principle) : 상위 클래스형 변수에 하위 클래스의 인스턴스를 대입해도 
  * 											    제대로 작동할 수 있도록 한다.
  * 
  * 	(instanceof등으로 하위 클래스의 종류를 특정하지 않아도 작동하도록 만드는 것이 좋다.)
