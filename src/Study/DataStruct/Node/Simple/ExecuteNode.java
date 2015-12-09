@@ -9,7 +9,7 @@ package Study.DataStruct.Node.Simple;
  * @프로그램 설명 : 단순 연결 리스트 테스트 
  */
 
-public class ExcuteNode {
+public class ExecuteNode {
 
 	public static void main(String[] args) {
 		

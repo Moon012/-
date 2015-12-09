@@ -10,7 +10,7 @@ package Study.DataStruct.Queue.Circular_Queue;
  */
 
 
-public class Excute {
+public class Execute {
 	
 	public static void main(String args[]){
 		

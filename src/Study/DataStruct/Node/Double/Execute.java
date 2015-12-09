@@ -11,7 +11,7 @@ package Study.DataStruct.Node.Double;
  * @프로그램 설명 : 이중 연결 리스트 테스트
  */
 
-public class Excute {
+public class Execute {
 
 	public static void main(String[] args){
 		

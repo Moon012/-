@@ -1,6 +1,6 @@
 package Study.DataStruct.Queue.Linked_List_Queue;
 
-public class Excute {
+public class Execute {
 	
 	public static void main(String[] args){
 		

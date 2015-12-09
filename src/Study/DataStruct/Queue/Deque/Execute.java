@@ -3,7 +3,7 @@ package Study.DataStruct.Queue.Deque;
 import Study.DataStruct.Queue.Linked_List_Queue.QueueList;
 
 
-public class Excute {
+public class Execute {
 	
 	public static void main(String[] args){
 		

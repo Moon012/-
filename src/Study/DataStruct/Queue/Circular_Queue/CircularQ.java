@@ -37,11 +37,11 @@ public class CircularQ {
 	private int size;
 	private int front;
 	private int rear;
-	private long[] QueueArray;
+	private long[] queueArray;
 	
 	public CircularQ(int size) {
 		this.size = size+1;
-		QueueArray = new long[size];
+		queueArray = new long[size];
 		rear = -1;
 		front = 0;
 	}
@@ -55,11 +55,11 @@ public class CircularQ {
 			
 		}else{
 
-			if( rear == QueueArray.length - 1){ 
+			if( rear == queueArray.length - 1){ 
 				rear = -1;
 			}
 			
-				QueueArray[++rear] = item;
+				queueArray[++rear] = item;
 				
 				return true;
 		}
@@ -74,9 +74,9 @@ public class CircularQ {
 			
 		}else{
 			
-			item[0] = QueueArray[front++];
+			item[0] = queueArray[front++];
 			
-			if(front == QueueArray.length){
+			if(front == queueArray.length){
 				front = 0;
 			}
 			
@@ -91,7 +91,7 @@ public class CircularQ {
 			return false;
 		}else{
 			
-			item[0] = QueueArray[front];
+			item[0] = queueArray[front];
 			return true;
 		}
 	}
@@ -111,13 +111,13 @@ public class CircularQ {
 	
 	private boolean isEmpty() { 
 		
-		return ((front - 1 == rear) || (front + QueueArray.length -1 == rear));
+		return ((front - 1 == rear) || (front + queueArray.length -1 == rear));
 		
 	}
 	
 	private boolean isFull() {
 		
-		return ((front - 2 == rear) || (front + QueueArray.length -2 == rear));
+		return ((front - 2 == rear) || (front + queueArray.length -2 == rear));
 	}
 	
 	public void display(){
@@ -126,7 +126,7 @@ public class CircularQ {
 		
 		while((intVar < size-1)){
 			
-			System.out.println(QueueArray[intVar++]);
+			System.out.println(queueArray[intVar++]);
 		}
 	}
 
