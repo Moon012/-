@@ -1,4 +1,4 @@
-package Study.DataStruct.ch1;
+package Study.DataStruct.Array;
 
 
 public class dsArray {

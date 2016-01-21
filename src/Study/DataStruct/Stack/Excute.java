@@ -41,7 +41,7 @@ public class Excute {
 		}
 		
 		
-//		참조 변수를 넘김 참조 변수가 가지고 있는 값을 출력할 수 있음
+//		참조 변수를 넘김 참조 변수가 가지고 있는 값을 출력할 수 있음(call by reference)
 //		ArrayList<Integer> arr = new ArrayList<Integer>();
 //		stack.add(arr);
 //		

@@ -1,4 +1,4 @@
-package Study.DataStruct.ch1;
+package Study.DataStruct.Array;
 
 import javax.sql.rowset.serial.SerialArray;
 public class orArray {

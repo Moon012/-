@@ -12,6 +12,14 @@ package Study.DataStruct.Queue.Circular_Queue;
  */
 
 
+/**
+ * @FileName    : CircularQ2.java
+ * @Project     : myStudy
+ * @Date        : 2015. 12. 12. 
+ * @작성자       : Moon
+ * @변경이력     :
+ * @프로그램 설명 :
+ */
 public class CircularQ2 {
 	
 	private int rear;

@@ -13,7 +13,7 @@ package Study.DataStruct.Queue.Circular_Queue;
  *  					 원형으로 돌아간다 생각하고 Circular Queue는 배열에 빈공간이 한개 존재해야한다. 즉 size + 1 이며
  *  					 이 빈공간은 배열의 상태를 위한 공간이다.(비어있거나 꽉 차있다는 것을 확인하기 위함.)
  *  
- *  -- 실수 한것 : 배열의 size를 받아오는데 이것이 문제였다 배열 size는 size + 1 이기 때문에 헷갈리는 것 보단 
+ *  -- 실수 한것 : 배열의 size를 받아오는데 이것이 문제였다.(배열의 상태 체크) 배열 size는 size + 1 이기 때문에 헷갈리는 것 보단 
  *  			 배열의 length를 이용하는것이 좋다. 
  *  
  *  -- 생각하게 만들었던 것 : Circular Queue 이기 때문에 queue가 remove 되고 나서 다시 삽입할때 꽉 차있는지 비어있는지에 대해서
@@ -21,15 +21,6 @@ package Study.DataStruct.Queue.Circular_Queue;
  * 					 	  boolean을 체크하기 위해 메소드에서 or( || ) 연산자를 이용 하여 두개 이생의 조건에서 하나만 만족해도
  * 						  true//false 를 반환하도록 할 수 있다.
  *  
- */
-
-/**
- * @FileName    : CircularQ.java
- * @Project     : myStudy
- * @Date        : 2015. 12. 8. 
- * @작성자       : Moon
- * @변경이력     :
- * @프로그램 설명 :
  */
 
 public class CircularQ {
